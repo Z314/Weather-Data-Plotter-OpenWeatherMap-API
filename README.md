@@ -1,28 +1,28 @@
 # Framework:
-# C# .NET core, console application
-# .NET (8.0)
-# C# (12.0)
-# Package dependencies:
-# Include="Plotly.NET" Version="5.1.0"
-# Include="ScottPlot" Version="5.0.54"
-# Include="Serilog" Version="4.2.0"
-# Include="Serilog.Sinks.Console" Version="6.0.0"
-# Include="Serilog.Sinks.File" Version="6.0.0"
-# Include="System.Data.SQLite" Version="1.0.119"
-# Tested on Windows 11, 24H2, 9/3/25
+C# .NET core, console application
+.NET (8.0)
+C# (12.0)
+Package dependencies:
+Include="Plotly.NET" Version="5.1.0"
+Include="ScottPlot" Version="5.0.54"
+Include="Serilog" Version="4.2.0"
+Include="Serilog.Sinks.Console" Version="6.0.0"
+Include="Serilog.Sinks.File" Version="6.0.0"
+Include="System.Data.SQLite" Version="1.0.119"
+Tested on Windows 11, 24H2, 9/3/25
 
 #-------------------------#
 
 # Use:  
-# Fetches weather data from an external API-openweathermaps, processes the data, generates a chart visualisation using # a chart API-ScottPlot, and saves the resulting image locally.
-# Outputs: log.txt, charts (.png), SQLITE database with data
+Fetches weather data from an external API-openweathermaps, processes the data, generates a chart visualisation using # a chart API-ScottPlot, and saves the resulting image locally.
+Outputs: log.txt, charts (.png), SQLITE database with data
 
 #-------------------------#
 
 # To run:
-# In this script, enter your API key @ testingAPIKey OR for production save your key as a environment variable on your # machine as: OPENWEATHER_API_KEY
-# Execute the ConsoleApp1.exe program to run (5 dependency files are needed within same folder), and follow instruction given on the command line
-# Source code maybe re-compiled on your machine with: dotnet publish -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true
+In this script, enter your API key @ testingAPIKey OR for production save your key as a environment variable on your # machine as: OPENWEATHER_API_KEY
+Execute the ConsoleApp1.exe program to run (5 dependency files are needed within same folder), and follow instruction given on the command line
+Source code maybe re-compiled on your machine with: dotnet publish -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true
 
 #-------------------------#
 

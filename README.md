@@ -1,6 +1,6 @@
 # Framework:
 C# .NET core, console application
-.NET (8.0)
+\n .NET (8.0)
 C# (12.0)
 Package dependencies:
 Include="Plotly.NET" Version="5.1.0"
